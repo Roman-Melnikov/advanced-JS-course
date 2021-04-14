@@ -28,11 +28,7 @@ class ProductsList {
     }
 
     getTotalSumProducts() {
-        let sumProduct = 0;
-        this.goods.forEach(item => {
-            sumProduct += item.price;
-        })
-        return sumProduct;
+        return this.goods.reduce((sum, {price}) => sum += price, 0);
     }
 
     showSumProducts() {
