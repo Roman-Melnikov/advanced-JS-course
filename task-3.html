@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .registration {
+            display: flex;
+            flex-direction: column;
+            width: 20%;
+            margin: auto;
+        }
+        .registration-name-input, .registration-telephone-input, .registration-mail-input, .registration-textarea {
+            margin-bottom: 4%;
+        }
+        .not-valid {
+            outline: 1px solid red;
+        }
+        .registration-valid {
+            display: none;
+        }
+        .not-valid-txt {
+            display: block;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<form action="#" class="registration">
+    <span class="registration-name-span">введите ваше имя:</span>
+    <input type="text" placeholder="введите имя" class="registration-name-input">
+    <span class="registration-valid">ошибка</span>
+    <span class="registration-telephone-span">введите ваш телефон:</span>
+    <input type="text" placeholder="введите номер телефона" class="registration-telephone-input">
+    <span class="registration-valid">ошибка</span>
+    <span class="registration-mail-span">введите ваш e-mail:</span>
+    <input type="text" placeholder="введите e-mail" class="registration-mail-input">
+    <span class="registration-valid">ошибка</span>
+    <textarea class="registration-textarea" name="registration-txt" id="123" cols="30" rows="10"></textarea>
+    <input type="submit" value="отправить" class="registration-submit">
+</form>
+<script>
+    const block = document.querySelector(".registration-submit");
+
+    const regName = /^[a-zа-яё]+$/i;
+    // +7(000)000-0000
+    const regTelephone = /^\+\d\(\d{3}\)\d{3}-\d{4}$/;
+    const regMail = /^([a-z]+[\.-][a-z]+)|^([a-z]+)@[a-z]+\.[a-z]{2,4}/i;
+
+    const regs = [regName, regTelephone, regMail];
+    block.addEventListener('click', (e) => {
+        // e.preventDefault();
+        const inputArr = document.querySelectorAll('input[type="text"]');
+        for (let j = 0; j < inputArr.length; j++) {
+            let bool = regs[j].test(inputArr[j].value);
+            if (!bool) {
+                inputArr[j].classList.add("not-valid");
+                inputArr[j].nextElementSibling.classList.add("not-valid-txt");
+            }else{
+                inputArr[j].classList.remove("not-valid");
+                inputArr[j].nextElementSibling.classList.remove("not-valid-txt");
+            }
+        }
+    });
+</script>
+</body>
+</html>
