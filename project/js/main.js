@@ -20,34 +20,29 @@ const app = new Vue({
                     console.log(error);
                 })
         },
-        // addProduct(product) {
-        //     if (this.cartProducts.length > 0) {
-        //         for (const item of this.cartProducts) {
-        //             if (item.id_product === product.id_product) {
-        //                 item.quantity++;
-        //                 console.log(this.cartProducts);
-        //                 break;
-        //             } else {
-        //                 product.quantity = 1;
-        //                 this.cartProducts.push(product);
-        //             }
-        //         }
-        //     } else {
-        //         console.log(this.cartProducts);
-        //         product.quantity = 1;
-        //         this.cartProducts.push(product);
-        //     }
-        //     console.log(this.cartProducts);
-        // },
-        // removeProduct(product) {
-        //     const find = this.cartProducts.find(item => item.id_product === product.id_product);
-        //     if (find.quantity > 1) {
-        //         find.quantity--;
-        //     } else {
-        //         let ind = this.cartProducts.indexOf(find);
-        //         this.cartProducts.splice(ind, 1);
-        //     }
-        // },
+        addProduct(product) {
+            let coincidence = false;
+            for (const item of this.cartProducts) {
+                if (item.id_product === product.id_product) {
+                    coincidence = true;
+                    item.quantity++;
+                    break;
+                }
+            }
+            if (!coincidence) {
+                Vue.set(product, 'quantity', 1);
+                this.cartProducts.push(product);
+            }
+        },
+        removeProduct(product) {
+            const find = this.cartProducts.find(item => item.id_product === product.id_product);
+            if (find.quantity > 1) {
+                find.quantity--;
+            } else {
+                let ind = this.cartProducts.indexOf(find);
+                this.cartProducts.splice(ind, 1);
+            }
+        },
         filter(value) {
             const regexp = new RegExp(value, 'i');
             this.filtered = this.allProducts.filter(product => regexp.test(product.product_name));
@@ -81,7 +76,7 @@ const app = new Vue({
         //         }
         //     });
         // this.filter(this.userSearch);
-    }
+    },
 })
 
 // class List {
