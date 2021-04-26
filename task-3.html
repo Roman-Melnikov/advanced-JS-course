@@ -48,7 +48,7 @@
     const regName = /^[a-zа-яё]+$/i;
     // +7(000)000-0000
     const regTelephone = /^\+\d\(\d{3}\)\d{3}-\d{4}$/;
-    const regMail = /^([a-z]+[\.-][a-z]+)|^([a-z]+)@[a-z]+\.[a-z]{2,4}/i;
+    const regMail = /^([a-z]+[\.-][a-z]+)|^([a-z]+)@[a-z]+\.[a-z]{2,4}$/i;
 
     const regs = [regName, regTelephone, regMail];
     block.addEventListener('click', (e) => {
