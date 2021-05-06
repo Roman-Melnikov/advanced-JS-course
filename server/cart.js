@@ -8,12 +8,14 @@ const change = (cart, req) => {
   return JSON.stringify(cart, null, 4);
 };
 const del = (cart, req) => {
-  const find = cart.contents.find(el => el.id_product === +req.params.id);
-  find.quantity += req.body.quantity;
+  const find = cart.contents.find(el => el.id_product === +req.body.id);
+  const ind = cart.contents.indexOf(find);
+  cart.contents.splice(ind, 1);
   return JSON.stringify(cart, null, 4);
 };
 
 module.exports = {
   add,
   change,
+  del,
 };
