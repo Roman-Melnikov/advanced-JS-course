@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/advanced-JS-course.iml" filepath="$PROJECT_DIR$/.idea/advanced-JS-course.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Продвинутый курс JavaScript video/Примеры с уроков/Урок 7. JavaScript на сервере/Шашков/lesson7/.idea/lesson7.iml" filepath="$PROJECT_DIR$/../Продвинутый курс JavaScript video/Примеры с уроков/Урок 7. JavaScript на сервере/Шашков/lesson7/.idea/lesson7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Продвинутый курс JavaScript video/Примеры с уроков/Урок 8. Тестирование и сборка/Шашков/lesson8/project_express_old/.idea/project_express_old.iml" filepath="$PROJECT_DIR$/../Продвинутый курс JavaScript video/Примеры с уроков/Урок 8. Тестирование и сборка/Шашков/lesson8/project_express_old/.idea/project_express_old.iml" />
+    </modules>
+  </component>
+</project>
