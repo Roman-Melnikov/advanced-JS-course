@@ -1,0 +1,392 @@
+[
+    {
+        "time": "30 Jan 2020, 7:54:11 pm",
+        "action": "change"
+    },
+    {
+        "time": "30 Jan 2020, 7:54:15 pm",
+        "action": "change"
+    },
+    {
+        "time": "30 Jan 2020, 7:54:20 pm",
+        "action": "change"
+    },
+    {
+        "time": "30 Jan 2020, 7:54:21 pm",
+        "prod_name": "Мышка",
+        "action": "add"
+    },
+    {
+        "time": "30 Jan 2020, 7:54:22 pm",
+        "action": "remove"
+    },
+    {
+        "time": "30 Jan 2020, 7:54:22 pm",
+        "action": "remove"
+    },
+    {
+        "time": "30 Jan 2020, 8:06:14 pm",
+        "action": "change"
+    },
+    {
+        "time": "30 Jan 2020, 8:06:16 pm",
+        "action": "change"
+    },
+    {
+        "time": "30 Jan 2020, 8:06:17 pm",
+        "action": "remove"
+    },
+    {
+        "time": "30 Jan 2020, 8:06:18 pm",
+        "action": "remove"
+    },
+    {
+        "time": "30 Jan 2020, 8:06:21 pm",
+        "prod_name": "Ноутбук",
+        "action": "add"
+    },
+    {
+        "time": "30 Jan 2020, 8:06:21 pm",
+        "prod_name": "Gamepad",
+        "action": "add"
+    },
+    {
+        "time": "30 Jan 2020, 8:06:22 pm",
+        "prod_name": "Keyboard",
+        "action": "add"
+    },
+    {
+        "time": "30 Jan 2020, 8:06:23 pm",
+        "action": "change"
+    },
+    {
+        "time": "08 May 2021, 9:29:45 am",
+        "prod_name": "product-1",
+        "action": "remove"
+    },
+    {
+        "time": "08 May 2021, 9:29:55 am",
+        "prod_name": "product-2",
+        "action": "change"
+    },
+    {
+        "time": "08 May 2021, 9:29:59 am",
+        "prod_name": "product-3",
+        "action": "add"
+    },
+    {
+        "time": "08 May 2021, 9:30:01 am",
+        "prod_name": "product-1",
+        "action": "add"
+    },
+    {
+        "time": "08 May 2021, 9:35:32 am",
+        "prod_name": "product-3",
+        "action": "remove"
+    },
+    {
+        "time": "08 May 2021, 9:35:35 am",
+        "prod_name": "product-2",
+        "action": "change"
+    },
+    {
+        "time": "08 May 2021, 9:35:36 am",
+        "prod_name": "product-2",
+        "action": "remove"
+    },
+    {
+        "time": "08 May 2021, 9:35:38 am",
+        "prod_name": "product-3",
+        "action": "add"
+    },
+    {
+        "time": "08 May 2021, 9:35:39 am",
+        "prod_name": "product-2",
+        "action": "add"
+    },
+    {
+        "time": "08 May 2021, 9:35:41 am",
+        "prod_name": "product-1",
+        "action": "change"
+    },
+    {
+        "time": "08 May 2021, 9:35:42 am",
+        "prod_name": "product-1",
+        "action": "change"
+    },
+    {
+        "time": "08 May 2021, 9:35:42 am",
+        "prod_name": "product-1",
+        "action": "change"
+    },
+    {
+        "time": "08 May 2021, 9:35:42 am",
+        "prod_name": "product-1",
+        "action": "change"
+    },
+    {
+        "time": "08 May 2021, 9:35:42 am",
+        "prod_name": "product-1",
+        "action": "change"
+    },
+    {
+        "time": "08 May 2021, 9:35:42 am",
+        "prod_name": "product-1",
+        "action": "change"
+    },
+    {
+        "time": "08 May 2021, 12:07:45 pm",
+        "prod_name": "product-1",
+        "action": "change"
+    },
+    {
+        "time": "08 May 2021, 12:07:47 pm",
+        "prod_name": "product-1",
+        "action": "change"
+    },
+    {
+        "time": "08 May 2021, 12:07:48 pm",
+        "prod_name": "product-1",
+        "action": "change"
+    },
+    {
+        "time": "08 May 2021, 12:07:48 pm",
+        "prod_name": "product-1",
+        "action": "change"
+    },
+    {
+        "time": "08 May 2021, 12:07:48 pm",
+        "prod_name": "product-1",
+        "action": "change"
+    },
+    {
+        "time": "08 May 2021, 12:07:48 pm",
+        "prod_name": "product-1",
+        "action": "change"
+    },
+    {
+        "time": "08 May 2021, 12:07:48 pm",
+        "prod_name": "product-1",
+        "action": "change"
+    },
+    {
+        "time": "08 May 2021, 12:07:51 pm",
+        "prod_name": "product-1",
+        "action": "remove"
+    },
+    {
+        "time": "08 May 2021, 12:07:52 pm",
+        "prod_name": "product-3",
+        "action": "remove"
+    },
+    {
+        "time": "08 May 2021, 12:07:53 pm",
+        "prod_name": "product-2",
+        "action": "remove"
+    },
+    {
+        "time": "08 May 2021, 12:09:55 pm",
+        "prod_name": "cap",
+        "action": "add"
+    },
+    {
+        "time": "08 May 2021, 12:10:13 pm",
+        "prod_name": "t-shirt",
+        "action": "add"
+    },
+    {
+        "time": "08 May 2021, 12:10:15 pm",
+        "prod_name": "jacket",
+        "action": "remove"
+    },
+    {
+        "time": "08 May 2021, 12:10:17 pm",
+        "prod_name": "sneakers",
+        "action": "remove"
+    },
+    {
+        "time": "08 May 2021, 12:10:18 pm",
+        "prod_name": "cap",
+        "action": "remove"
+    },
+    {
+        "time": "08 May 2021, 12:10:19 pm",
+        "prod_name": "t-shirt",
+        "action": "remove"
+    },
+    {
+        "time": "08 May 2021, 12:10:21 pm",
+        "prod_name": "cap",
+        "action": "add"
+    },
+    {
+        "time": "08 May 2021, 12:10:26 pm",
+        "prod_name": "jacket",
+        "action": "add"
+    },
+    {
+        "time": "08 May 2021, 12:10:28 pm",
+        "prod_name": "sneakers",
+        "action": "add"
+    },
+    {
+        "time": "08 May 2021, 12:10:36 pm",
+        "prod_name": "cap",
+        "action": "remove"
+    },
+    {
+        "time": "08 May 2021, 12:10:37 pm",
+        "prod_name": "jacket",
+        "action": "remove"
+    },
+    {
+        "time": "08 May 2021, 12:10:38 pm",
+        "prod_name": "sneakers",
+        "action": "remove"
+    },
+    {
+        "time": "08 May 2021, 12:10:41 pm",
+        "prod_name": "Hoodie",
+        "action": "add"
+    },
+    {
+        "time": "08 May 2021, 12:10:43 pm",
+        "prod_name": "Hoodie",
+        "action": "change"
+    },
+    {
+        "time": "08 May 2021, 12:10:44 pm",
+        "prod_name": "Hoodie",
+        "action": "change"
+    },
+    {
+        "time": "08 May 2021, 12:10:44 pm",
+        "prod_name": "Hoodie",
+        "action": "change"
+    },
+    {
+        "time": "08 May 2021, 12:10:44 pm",
+        "prod_name": "Hoodie",
+        "action": "change"
+    },
+    {
+        "time": "08 May 2021, 12:10:47 pm",
+        "prod_name": "sneakers",
+        "action": "add"
+    },
+    {
+        "time": "08 May 2021, 12:10:49 pm",
+        "prod_name": "sneakers",
+        "action": "change"
+    },
+    {
+        "time": "08 May 2021, 12:10:50 pm",
+        "prod_name": "sneakers",
+        "action": "change"
+    },
+    {
+        "time": "08 May 2021, 12:10:50 pm",
+        "prod_name": "sneakers",
+        "action": "change"
+    },
+    {
+        "time": "08 May 2021, 12:30:48 pm",
+        "prod_name": "t-shirt",
+        "action": "add"
+    },
+    {
+        "time": "08 May 2021, 1:17:39 pm",
+        "prod_name": "cap",
+        "action": "add"
+    },
+    {
+        "time": "08 May 2021, 1:21:15 pm",
+        "prod_name": "cap",
+        "action": "remove"
+    },
+    {
+        "time": "08 May 2021, 1:21:20 pm",
+        "prod_name": "t-shirt",
+        "action": "remove"
+    },
+    {
+        "time": "08 May 2021, 1:21:25 pm",
+        "prod_name": "t-shirt",
+        "action": "add"
+    },
+    {
+        "time": "08 May 2021, 1:21:33 pm",
+        "prod_name": "t-shirt",
+        "action": "remove"
+    },
+    {
+        "time": "08 May 2021, 1:21:38 pm",
+        "prod_name": "t-shirt",
+        "action": "add"
+    },
+    {
+        "time": "08 May 2021, 1:21:40 pm",
+        "prod_name": "cap",
+        "action": "add"
+    },
+    {
+        "time": "08 May 2021, 1:21:42 pm",
+        "prod_name": "t-shirt",
+        "action": "remove"
+    },
+    {
+        "time": "08 May 2021, 2:42:52 pm",
+        "prod_name": "t-shirt",
+        "action": "add"
+    },
+    {
+        "time": "08 May 2021, 2:44:55 pm",
+        "prod_name": "t-shirt",
+        "action": "remove"
+    },
+    {
+        "time": "08 May 2021, 2:44:57 pm",
+        "prod_name": "cap",
+        "action": "remove"
+    },
+    {
+        "time": "08 May 2021, 2:44:58 pm",
+        "prod_name": "sneakers",
+        "action": "change"
+    },
+    {
+        "time": "08 May 2021, 2:45:04 pm",
+        "prod_name": "Hoodie",
+        "action": "change"
+    },
+    {
+        "time": "08 May 2021, 2:45:05 pm",
+        "prod_name": "cap",
+        "action": "add"
+    },
+    {
+        "time": "08 May 2021, 2:45:08 pm",
+        "prod_name": "sneakers",
+        "action": "change"
+    },
+    {
+        "time": "08 May 2021, 2:45:10 pm",
+        "prod_name": "Hoodie",
+        "action": "change"
+    },
+    {
+        "time": "08 May 2021, 2:45:10 pm",
+        "prod_name": "Hoodie",
+        "action": "change"
+    },
+    {
+        "time": "08 May 2021, 2:45:10 pm",
+        "prod_name": "Hoodie",
+        "action": "change"
+    },
+    {
+        "time": "08 May 2021, 2:45:11 pm",
+        "prod_name": "Hoodie",
+        "action": "change"
+    }
+]
