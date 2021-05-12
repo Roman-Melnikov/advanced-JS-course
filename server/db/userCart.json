@@ -1,0 +1,13 @@
+{
+    "amount": 46600,
+    "countGoods": 2,
+    "contents": [
+        {
+            "quantity": 1,
+            "id_product": 456,
+            "product_name": "Мышка",
+            "price": 1000,
+            "img": "img/mouse.jpg"
+        }
+    ]
+}
