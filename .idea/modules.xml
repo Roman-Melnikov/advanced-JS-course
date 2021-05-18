@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/advanced-JS-course.iml" filepath="$PROJECT_DIR$/.idea/advanced-JS-course.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../schedule/.idea/schedule.iml" filepath="$PROJECT_DIR$/../schedule/.idea/schedule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Продвинутый курс JavaScript video/Примеры с уроков/.idea/Примеры с уроков.iml" filepath="$PROJECT_DIR$/../Продвинутый курс JavaScript video/Примеры с уроков/.idea/Примеры с уроков.iml" />
     </modules>
   </component>
 </project>
